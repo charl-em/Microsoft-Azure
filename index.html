@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Microsoft Azure : De quoi est-il question ?</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-yellow w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Intro</a>
+    <a href="#q1" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Solutions et fonctionnement</a>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#q1" class="w3-bar-item w3-button w3-padding-large">Solutions et fonctionnement</a>
+  </div>
+</div>
+
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Qu’est-ce qu’Azure et pourquoi l'utiliser ?</h1>
+      <h5 class="w3-padding-32">La plateforme cloud Azure compte plus de 200 produits et services cloud conçus pour vous aider à donner vie à de nouvelles solutions, afin de relever les défis actuels et de créer l’avenir. Créez, exécutez et gérez des applications sur plusieurs clouds, localement et à la périphérie, avec les outils et infrastructures de votre choix.
+        <br>La solution Azure a été conçue pour gérer toutes les charges de travail. Plus de 66 % des entreprises du classement Fortune 500 font confiance à Azure, qui propose des contrats SLA, ainsi qu'une assistance technique et une analyse du fonctionnement des services en continu.
+      </h5>
+
+      <p class="w3-text-grey">Faites confiance à votre cloud<br>
+        Bénéficiez d’une sécurité de bout en bout assurée par une équipe d’experts, et d’une conformité proactive à laquelle les entreprises, les gouvernements et les start-ups font confiance.
+    
+    <br><br>Exploitez le cloud hybride en toute transparence<br>En local, dans plusieurs clouds et à la périphérie, nous vous rencontrerons où que vous soyez. Intégrez et gérez vos environnements avec des services conçus pour le cloud hybride.
+    <br><br>Générez des applications selon vos conditions<br>Avec une philosophie résolument tournée vers l’open source et la prise en charge de tous les langages et infrastructures, générez vos applications comme vous le souhaitez et déployez-les où vous voulez.
+    <br><br>Tenez-vous prêt pour l’avenir<br>Microsoft innove constamment pour soutenir votre développement aujourd’hui et votre vision des produits pour demain.</p>
+    </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1 id="q1">Les solutions microsoft : Fonctionnement et impacts</h1>
+      <p class="w3-text-grey">Trouvez des solutions aux défis métier auxquels vous êtes confronté avec une solution Azure qui regroupe tout ce dont vous avez besoin : produits, services et applications tierces associés. Du DevOps à l’analyse marketing en passant par l’Internet des objets, vous serez rapidement opérationnel grâce à une solution évolutive et rentable qui fonctionne avec vos investissements existants.
+       <br> <br>Fonctionnement<br><br>La solution Azure a été conçue pour gérer toutes les charges de travail. Plus de 66 % des entreprises du classement Fortune 500 font confiance à Azure, qui propose des contrats SLA, ainsi qu'une assistance technique et une analyse du fonctionnement des services en continu.
+    </p>
+    
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-xlarge w3-padding w3-right w3-opacity">  
+ <p> Happily made by<a href="index.html" target="_blank" style="text-decoration: none;"> me</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+
+
+</html>
